@@ -12,3 +12,4 @@ Select usuario.nombre , especialidad.nombre FROM usuario inner join especialidad
 
 Select usuario.nombre , especialidad.nombre , ciudad.nombre FROM usuario inner join especialidad on usuario.id = especialidad.id 
 inner join especialidad.id = ciudad.id
+tod bien mientras tanto
