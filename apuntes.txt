@@ -1,0 +1,14 @@
+APUNTES BASE DE DATOS
+
+COMO HACER JOINS
+
+SELECT (Los datos que quiero de mis tablas) FROM (mi tabla origen) inner join (mi tabla destino ) on (tablaOtigen.id) = (tablaDestino.id) 
+
+Ejemplo tabla a tabla
+Select usuario.nombre , especialidad.nombre FROM usuario inner join especialidad on usuario.id = especialidad.id
+
+
+3 tablas
+
+Select usuario.nombre , especialidad.nombre , ciudad.nombre FROM usuario inner join especialidad on usuario.id = especialidad.id 
+inner join especialidad.id = ciudad.id
